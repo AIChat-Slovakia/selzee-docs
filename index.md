@@ -20,6 +20,10 @@ Get started with the [Quickstart](./quickstart.md) guide.
 - [Event Tracking](./analytics/event-tracking.md) — record user interactions with the chatbot widget
 - [Analytics Stats](./analytics/analytics-stats.md) — query aggregated analytics and insights
 
+## Authentication
+
+- [Password Reset](./auth/password-reset.md) — email-based password reset flow via Loops
+
 ## Search
 
 - [Document Search](./document-search.md) — retrieve documents from a chatbot's knowledge base
