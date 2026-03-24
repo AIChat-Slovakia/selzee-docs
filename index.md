@@ -1,14 +1,22 @@
 ---
-title: "Selzee API Documentation"
-description: "API reference for the Selzee e-commerce chatbot platform."
+title: "Selzee Documentation"
+description: "User guides and API reference for the Selzee e-commerce chatbot platform."
 sidebar_position: 1
 ---
 
-# Selzee API Documentation
+# Selzee Documentation
 
-Selzee provides an AI-powered chatbot for e-commerce stores. This documentation covers the dashboard API for managing chatbots, data sources, and analytics.
+Selzee provides an AI-powered chatbot for e-commerce stores. This documentation covers the dashboard user guide and the API reference for managing chatbots, data sources, and analytics.
 
 Get started with the [Quickstart](./quickstart.md) guide.
+
+## User Guide
+
+- [Dashboard Overview](./guide/overview.md) — summary of chatbot activity and conversation history
+- [Conversations](./guide/conversations.md) — viewing conversation details and providing feedback
+- [Managing Data Sources](./guide/data-sources.md) — uploading and managing your knowledge base
+- [Agent Configuration](./guide/agent.md) — appearance, intelligence, and action settings
+- [Analytics](./guide/analytics.md) — engagement funnels, purchase impact, and conversation insights
 
 ## Dashboard
 
