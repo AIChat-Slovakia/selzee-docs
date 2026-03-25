@@ -8,19 +8,28 @@ sidebar_position: 20
 
 Users can reset their password via an email-based flow. Reset emails are delivered through the [Loops](https://loops.so) transactional email API.
 
-## Flow overview
+There are two ways to initiate a password reset:
 
-1. User submits their email on the forgot-password page
-2. Server generates a reset token and dispatches an email via Loops
-3. User clicks the reset link in the email
-4. User enters a new password and submits
-5. Password is updated and user is redirected to login
+1. **Not logged in** — from the login page via "Forgot password?"
+2. **Logged in** — from the dashboard profile settings via "Forgot password? Send reset link"
 
-## Endpoints
+## Option 1: Not logged in
 
-### `POST /forgot-password`
+Use this when you can't remember your password and need to sign in.
+
+### Flow
+
+1. Click "Forgot password?" on the login page
+2. Enter your email address and submit
+3. Check your email for a reset link
+4. Click the link and set a new password
+5. You are redirected to the login page
+
+### Endpoint: `POST /forgot-password`
 
 Requests a password reset link. Returns the same success message regardless of whether the email exists (prevents email enumeration).
+
+**Middleware:** `guest` (only accessible when not logged in)
 
 **Rate limit:** 5 requests per minute. Additionally, only one token can be generated per email address every 60 seconds.
 
@@ -38,9 +47,42 @@ Requests a password reset link. Returns the same success message regardless of w
 
 ---
 
+## Option 2: Logged in (from dashboard)
+
+Use this when you are already signed in and want to reset your password from your profile settings.
+
+### Flow
+
+1. Go to **Settings → Profile** in the dashboard
+2. Scroll to the **Password** section
+3. Click "Forgot password? Send reset link"
+4. Check your email for a reset link
+5. Click the link and set a new password
+6. You are redirected back to your profile settings
+
+### Endpoint: `POST /app/send-password-reset`
+
+Sends a password reset link to the authenticated user's email. No email input is needed — it uses the email from the current session.
+
+**Middleware:** `auth` (must be logged in)
+
+**Rate limit:** 5 requests per minute.
+
+**Request body:** None.
+
+**Response:** Redirects back with a status message.
+
+```
+"Password reset link has been sent to your email."
+```
+
+---
+
+## Shared endpoints
+
 ### `GET /reset-password/{token}`
 
-Renders the password reset form. The token is passed as a URL parameter and the email as a query string.
+Renders the password reset form. Accessible by both guests and authenticated users.
 
 **Parameters:**
 
@@ -66,7 +108,9 @@ Submits the new password. Validates the token, updates the password, and invalid
 | `password` | `string` | Yes | New password |
 | `password_confirmation` | `string` | Yes | Must match `password` |
 
-**Success:** Redirects to `/login` with a success message.
+**Success:**
+- **Logged in:** Redirects to profile settings with a success message.
+- **Not logged in:** Redirects to `/login` with a success message.
 
 **Error responses:**
 
@@ -95,10 +139,11 @@ Reset emails are sent asynchronously via a queued job (`SendLoopsEmailJob`) that
 
 | File | Purpose |
 |---|---|
-| `app/Domain/Auth/Controllers/PasswordResetController.php` | Controller with `sendResetLink`, `showResetForm`, `reset` methods |
+| `app/Domain/Auth/Controllers/PasswordResetController.php` | Controller with `sendResetLink`, `sendResetLinkAuthenticated`, `showResetForm`, `reset` methods |
 | `app/Domain/Auth/Actions/SendPasswordResetLink.php` | Generates token and dispatches email job |
 | `app/Jobs/SendLoopsEmailJob.php` | Queued job for Loops API call |
 | `app/Shared/Services/Loops/LoopsService.php` | Loops HTTP client (`sendTransactionalEmail`) |
-| `resources/js/Pages/Auth/ForgotPassword.vue` | Forgot password form |
-| `resources/js/Pages/Auth/ResetPassword.vue` | Reset password form |
+| `resources/js/Pages/Auth/ForgotPassword.vue` | Forgot password form (guest) |
+| `resources/js/Pages/Auth/ResetPassword.vue` | Reset password form (shared) |
+| `resources/js/Pages/Dashboard/Settings/Profile.vue` | Profile settings with reset link button (authenticated) |
 | `config/auth.php` | Token expiry and throttle settings |
