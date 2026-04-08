@@ -1,0 +1,20 @@
+{
+  "title": "Managing Data Sources",
+  "description": "How to upload and manage your chatbot's knowledge base including static data, product catalogs, and upload methods.",
+  "the_data_tab_contains": "The **Data** tab contains all information that serves as the knowledge base your AI chatbot draws from when answering customers. If you use the Selzee plugin for your Upgates, Shoptet, or Shopify store, this step is handled automatically upon activation.",
+  "data_is_divided_into": "Data is divided into two types:",
+  "static_data": "**Static data** — All information that is not part of the product catalog. This typically includes:",
+  "general_information": "**General information** — contact details, privacy policy, store information, cookies, etc.",
+  "purchase_information": "**Purchase information** — shipping options, payment methods, terms and conditions, returns, complaints, etc.",
+  "services": "**Services** — articles, contest rules, discounts, promotional flyers, newsletters, loyalty programs, etc.",
+  "product_catalog": "**Product catalog** — Your complete product catalog (Google Feed, Heureka Feed, etc.) in `.json` or `.xml` format. To update the product catalog, upload it as a URL link to the `.xml` file.",
+  "upload_methods": "Upload Methods",
+  "there_are_three_ways": "There are three ways to upload data:",
+  "manual_upload": "Manual upload",
+  "automatic_upload": "Automatic upload",
+  "data_extraction": "Data extraction",
+  "click_the_plus_button": "Click the **\"+\"** button in the top-right corner of the screen to add data. You can upload data as a file, text, or via a URL link. Store owners on Shopify and Shoptet can automate this process using the **Import from Shopify** and **Import from Shoptet** features.",
+  "when_adding_a_data": "When adding a data source, you need to select the target chatbot and the data type.",
+  "filtering_and_preview": "Filtering and Preview",
+  "you_can_filter_uploaded": "You can filter uploaded data by status, type, and assigned chatbot. Use the preview icon to open and browse individual data sources. If you are unsure whether a specific piece of information is already in the chatbot's knowledge base, verify it using the **Test Search** function."
+}

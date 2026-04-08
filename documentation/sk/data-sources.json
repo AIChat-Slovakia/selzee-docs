@@ -1,0 +1,20 @@
+{
+  "title": "Správa dátových zdrojov",
+  "description": "Ako nahrávať a spravovať znalostnú bázu vášho chatbota vrátane statických dát, produktových katalógov a metód nahrávania.",
+  "the_data_tab_contains": "Záložka **Dáta** obsahuje všetky informácie, ktoré slúžia ako znalostná báza, z ktorej váš AI chatbot čerpá pri odpovedaní zákazníkom. Ak používate plugin Selzee pre váš obchod na Upgates, Shoptet alebo Shopify, tento krok sa vykoná automaticky po aktivácii.",
+  "data_is_divided_into": "Dáta sú rozdelené do dvoch typov:",
+  "static_data": "**Statické dáta** — Všetky informácie, ktoré nie sú súčasťou produktového katalógu. Typicky zahŕňajú:",
+  "general_information": "**Všeobecné informácie** — kontaktné údaje, zásady ochrany osobných údajov, informácie o obchode, cookies atď.",
+  "purchase_information": "**Informácie o nákupe** — možnosti doručovania, platobné metódy, obchodné podmienky, vrátenia, reklamácie atď.",
+  "services": "**Služby** — články, pravidlá súťaží, zľavy, akčné letáky, newslettre, vernostné programy atď.",
+  "product_catalog": "**Produktový katalóg** — Váš kompletný produktový katalóg (Google Feed, Heureka Feed atď.) vo formáte `.json` alebo `.xml`. Pre aktualizáciu produktového katalógu ho nahrajte ako URL odkaz na `.xml` súbor.",
+  "upload_methods": "Metódy nahrávania",
+  "there_are_three_ways": "Existujú tri spôsoby nahrávania dát:",
+  "manual_upload": "Manuálne nahrávanie",
+  "automatic_upload": "Automatické nahrávanie",
+  "data_extraction": "Extrakcia dát",
+  "click_the_plus_button": "Kliknite na tlačidlo **\"+\"** v pravom hornom rohu obrazovky pre pridanie dát. Dáta môžete nahrať ako súbor, text alebo cez URL odkaz. Majitelia obchodov na Shopify a Shoptet môžu tento proces automatizovať pomocou funkcií **Import zo Shopify** a **Import zo Shoptet**.",
+  "when_adding_a_data": "Pri pridávaní dátového zdroja musíte vybrať cieľového chatbota a typ dát.",
+  "filtering_and_preview": "Filtrovanie a náhľad",
+  "you_can_filter_uploaded": "Nahrané dáta môžete filtrovať podľa stavu, typu a priradeného chatbota. Pomocou ikony náhľadu otvorte a prehliadavajte jednotlivé dátové zdroje. Ak si nie ste istí, či sa konkrétna informácia už nachádza v znalostnej báze chatbota, overte to pomocou funkcie **Test vyhľadávania**."
+}

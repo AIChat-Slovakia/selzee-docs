@@ -1,0 +1,9 @@
+{
+  "title": "Dashboard Overview",
+  "description": "Summary view of chatbot activity including visitor count, AI messages, and conversation history.",
+  "the_overview_tab_lets": "The **Overview** tab lets you track the overall activity of your chatbot at a glance. It displays:",
+  "number_of_contacted_visitors": "Number of contacted visitors",
+  "number_of_ai_messages": "Number of AI messages sent",
+  "conversation_duration": "Conversation duration",
+  "you_can_also_browse": "You can also browse through previous conversations directly from this tab."
+}

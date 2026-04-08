@@ -1,0 +1,35 @@
+{
+  "title": "Analytika",
+  "description": "Pochopenie analytiky chatbota vrátane lievikov zapojenia, výkonnosti vyskakovacích okien, dopadu na nákupy a AI analýzy konverzácií.",
+  "the_analytics_tab_provides": "Záložka **Analytika** poskytuje komplexný prehľad účinnosti vášho chatbota. Metriky sa sledujú samostatne pre každého chatbota za vybrané časové obdobie — 7 dní, 30 dní alebo 90 dní.",
+
+  "summary_metrics": "Súhrnné metriky",
+  "at_the_top_of": "V hornej časti dashboardu nájdete tri kľúčové ukazovatele: celkový počet **konverzácií**, počet **AI správ** odoslaných chatbotom a odhadovaný počet **ušetrených hodín zákazníckej podpory**.",
+
+  "engagement_funnel": "Lievik zapojenia",
+  "this_section_shows_the_visitor": "Táto sekcia zobrazuje cestu návštevníka od príchodu na vašu stránku až po aktívnu konverzáciu. Môžete vidieť počet **návštevníkov**, **zobrazení vyskakovacích okien** (vrátane percenta z celkového počtu návštevníkov), **otvorení chatu** a **odoslaných správ**. Tieto hodnoty vám pomáhajú identifikovať, kde dochádza k najväčším stratám v zapojení.",
+
+  "popup_performance": "Výkonnosť vyskakovacích okien",
+  "this_table_shows_the": "Táto tabuľka zobrazuje výkonnosť jednotlivých verzií proaktívnych vyskakovacích okien. Pre každé vyskakovacie okno môžete vidieť, koľkokrát bolo **zobrazené**, koľkokrát ho návštevník **otvoril** a výslednú **mieru otvorenia**. Zobrazený je aj zdroj konverzácií — či prišli cez vyskakovacie okno alebo priamo cez tlačidlo chatu.",
+
+  "purchase_impact": "Dopad na nákupy",
+  "this_section_compares_the": "Táto sekcia porovnáva nákupné správanie návštevníkov, ktorí použili chat, s tými, ktorí ho nepoužili. Sledované metriky zahŕňajú:",
+  "conv_rate": "**Conv. Rate** — Miera konverzie zobrazená samostatne pre používateľov s chatom, bez chatu a celková miera konverzie obchodu.",
+  "chat_uplift": "**Chat Uplift (Δ conv.)** — Rozdiel v miere konverzie medzi používateľmi chatu a používateľmi bez chatu. Ukazuje, o koľko chat zvyšuje pravdepodobnosť nákupu.",
+  "aov_average_order_value": "**AOV (Priemerná hodnota objednávky)** — Porovnanie priemernej hodnoty objednávky zákazníkov, ktorí chatovali, oproti tým, ktorí nechatovali.",
+  "arpu_average_revenue_per": "**ARPU (Priemerný príjem na používateľa)** — Priemerný príjem generovaný na používateľa, rozdelený podľa segmentov s chatom a bez chatu.",
+  "estimated_revenue_uplift": "**Odhadovaný nárast tržby** — Odhadovaný dodatočný príjem priamo pripisovaný chatbotovi v porovnaní so základnou mierou konverzie stránky.",
+
+  "ai_conversation_analysis": "AI analýza konverzácií",
+  "this_section_provides_a_deeper": "Táto sekcia poskytuje hlbší pohľad na kvalitu a obsah konverzácií. Zahŕňa:",
+  "average_conversation_length": "Priemerná dĺžka konverzácie",
+  "chat_conversion_rate": "Miera konverzie chatu",
+  "human_escalation_rate": "Miera eskalácie na človeka (Human Needed)",
+  "click_through_count": "Počet prekliknutí",
+  "reaction_and_feedback_metrics": "Metriky reakcií a spätnej väzby",
+  "visitor_mood_breakdown": "Rozloženie nálady návštevníkov",
+  "conversation_outcomes": "Výsledky konverzácií",
+  "most_frequent_user_intents": "Najčastejšie zámery používateľov",
+  "most_common_complaints": "Najčastejšie sťažnosti",
+  "most_discussed_and_most": "Najdiskutovanejšie a najklikovanejšie produkty"
+}

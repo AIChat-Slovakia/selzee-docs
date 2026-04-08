@@ -1,0 +1,92 @@
+{
+  "title": "Konfigurácia agenta",
+  "description": "Konfigurácia vzhľadu chatbota, nastavení inteligencie a akcií vrátane prepojenia na operátora, integrácie košíka a stavu objednávky.",
+  "the_agent_tab_provides": "Záložka **Agent** poskytuje možnosti konfigurácie vzhľadu vášho chatbota, logiky odpovedí a integrácií.",
+
+  "appearance": "Vzhľad",
+  "the_appearance_section_controls": "Sekcia **Vzhľad** ovláda vizuálnu prezentáciu vášho chatbota.",
+
+  "agent_name": "Meno agenta",
+  "the_display_name_of": "Zobrazované meno vášho chatbota.",
+
+  "agent_personality": "Osobnosť agenta",
+  "a_short_description_shown": "Krátky popis zobrazený pod menom, ktorý bližšie charakterizuje vášho chatbota.",
+
+  "gender": "Rod",
+  "controls_the_grammatical_gender": "Ovláda gramatický rod používaný v odpovediach chatbota. Pri nastavení na mužský rod chatbot odpovedá v mužskom tvare; pri nastavení na ženský rod používa ženské tvary.",
+
+  "welcome_message": "Uvítacia správa",
+  "this_message_is_displayed": "Táto správa sa zobrazuje každému používateľovi, ktorý otvorí okno chatu. Typicky slúži ako krátke predstavenie a privítanie. Text podporuje formátovanie Markdown.",
+
+  "initial_prompts": "Úvodné výzvy",
+  "short_suggested_messages_displayed": "Krátke navrhované správy zobrazené predtým, než používateľ položí svoju prvú otázku. Mali by riešiť najčastejšie dotazy, odporúčať konkrétne produkty alebo kategórie, alebo pomôcť s výberom produktov. Keď používateľ klikne na jednu z týchto výziev, text sa odošle chatbotovi ako správa. Text by mal byť jasný a orientovaný na akciu.",
+
+  "currency": "Mena",
+  "the_currency_displayed_when": "Mena zobrazovaná pri zobrazovaní cien produktov.",
+
+  "brand_color": "Farba značky",
+  "choose_your_brand_color": "Vyberte farbu vašej značky jedným z dvoch spôsobov:",
+  "color_picker": "Výber farby (Color Picker)",
+  "hex_color_code": "Hex kód farby",
+  "the_selected_color_is": "Vybraná farba sa používa aj pre tlačidlá úvodných výziev a návrhy rýchlych odpovedí.",
+
+  "avatar_image": "Obrázok avatara",
+  "upload_an_avatar_image": "Nahrajte obrázok avatara pre vášho chatbota. Podporované formáty: JPEG, JPG, PNG, GIF.",
+
+  "chat_button": "Tlačidlo chatu",
+  "when_enabled_the_chat": "Keď je povolené, text tlačidla chatu sa zobrazuje vedľa ikony chatbota, keď je okno chatu minimalizované. Keď je zakázané, viditeľná je iba ikona chatbota.",
+
+  "input_placeholder": "Zástupný text vstupu",
+  "the_placeholder_text_displayed": "Zástupný text zobrazený v poli pre zadávanie správ.",
+
+  "position": "Pozícia",
+  "the_offset_of_the": "Odsadenie pozície chat widgetu na stránke, určené v pixeloch (napr. 24px).",
+
+  "custom_css": "Vlastné CSS",
+  "add_custom_css_to": "Pridajte vlastné CSS pre štylizáciu chat widgetu (písmo, farba textu atď.).",
+
+  "intelligence": "Inteligencia",
+  "the_intelligence_section_defines": "Sekcia **Inteligencia** definuje logiku odpovedí a hranice, ktoré musí váš chatbot dodržiavať.",
+
+  "language": "Jazyk",
+  "the_language_selected_here": "Tu vybraný jazyk je preferovaným jazykom chatbota pre komunikáciu. Ak používateľ komunikuje v inom jazyku, chatbot sa automaticky prispôsobí.",
+
+  "system_instructions": "Systémové inštrukcie",
+  "core_settings_that_define": "Základné nastavenia, ktoré definujú, ako chatbot odpovedá, ako rieši špecifické situácie, aké postupy musí dodržiavať a čomu sa musí vyhýbať.",
+  "if_the_chatbot_includes": "Ak chatbot zahŕňa do svojich odpovedí nežiaduce informácie, môžete upraviť logiku jeho odpovedí aktualizáciou systémových inštrukcií.",
+
+  "tone_of_voice": "Tón komunikácie",
+  "set_guidelines_for_the": "Nastavte pokyny pre tón, ktorý chatbot používa pri komunikácii. Zvážte úroveň formálnosti a zlaďte hlas s vašou značkou.",
+  "qualification": "Kvalifikácia",
+  "describe_your_target_audience": "Opíšte demografiu vašej cieľovej skupiny, profil zákazníka, ich problémy a riešenia, ktoré hľadajú. Definujte, aké otázky by mal chatbot klásť na kvalifikáciu používateľov.",
+
+  "escalation": "Eskalácia",
+  "define_scenarios_where_the": "Definujte scenáre, kedy by ďalším krokom mala byť eskalácia na živého agenta zákazníckej podpory, telefonický kontakt alebo e-mail. AI vyhodnocuje kľúčové slová ako \"chcem hovoriť s človekom\" alebo \"nechcem sa rozprávať s robotom\" a podľa toho konverzáciu eskaluje.",
+
+  "personality": "Osobnosť",
+  "choose_one_of_three": "Vyberte si z troch štýlov osobnosti: **Formálny**, **Vyvážený** alebo **Priateľský**.",
+
+  "product_preferences": "Produktové preferencie",
+  "specify_brands_products_and": "Určite značky, produkty a produktové kategórie, ktoré majú byť uprednostnené v odporúčaniach produktov. Keď je k dispozícii viac vhodných produktov, položky uvedené tu majú prednosť.",
+
+  "quick_reply_suggestions": "Návrhy rýchlych odpovedí",
+  "set_the_logic_for": "Nastavte logiku pre generovanie tlačidiel rýchlych odpovedí zobrazených používateľovi po každej správe chatbota. Tieto pomáhajú udržiavať plynulý priebeh konverzácie a znižujú bariéry v predajnom procese. Opíšte, ako má chatbot generovať obsah týchto klikateľných tlačidiel.",
+
+  "products_to_recommend": "Produkty na odporúčanie",
+  "set_the_maximum_number": "Nastavte maximálny počet produktov zobrazených používateľom, keď sa nájde zhoda.",
+
+  "proactive_popups": "Proaktívne vyskakovacie okná",
+  "enable_proactive_outreach_using": "Povoľte proaktívne oslovovanie pomocou prepínača. Po povolení chatbot oslovuje používateľov v správnom momente na základe ich aktivity na stránke — víta ich na webe, pomáha porovnávať produkty, asistuje pri výbere produktov, zachraňuje opustené košíky a ďalšie.",
+
+  "actions": "Akcie",
+  "the_actions_section_provides": "Sekcia **Akcie** poskytuje možnosti pre interakciu s tretími stranami a e-commerce platformami.",
+
+  "operator_connection": "Prepojenie na operátora",
+  "keep_this_setting_enabled": "Toto nastavenie ponechajte povolené, ak chatbot slúži ako priamy komunikačný kanál so zákazníkmi a plánujete sa aktívne zúčastňovať konverzácií. Pri spustení odovzdania sa AI odpovede deaktivujú a váš tím dostane notifikácie cez dashboard (zvukové a vizuálne upozornenia), prehliadačové notifikácie a e-mail. AI vyhodnocuje potrebu eskalácie na základe podnetov ako \"nechcem sa rozprávať s robotom\" alebo \"chcem človeka.\"",
+
+  "shopping_cart": "Nákupný košík",
+  "add_products_to_the": "Pridávajte produkty do košíka zákazníka priamo cez chat. Ak používate plugin Selzee pre Upgates, Shoptet alebo Shopify, toto funguje bez ďalšieho nastavovania. Pre ostatné platformy je potrebná vlastná technická integrácia — podrobnosti nájdete v technickej dokumentácii.",
+
+  "order_status": "Stav objednávky",
+  "the_chatbot_can_handle": "Chatbot dokáže spracovať požiadavky \"Kde je moja objednávka?\" priamo v chate. Zákazník zadá číslo objednávky a e-mail na overenie a chatbot zobrazí aktuálny stav objednávky. Ak používate plugin Selzee pre Upgates, Shoptet alebo Shopify, toto funguje bez ďalšieho nastavovania. Pre ostatné platformy musíte poskytnúť API endpoint, ktorý získa stav objednávky podľa čísla objednávky a e-mailu — podrobnosti nájdete v technickej dokumentácii."
+}

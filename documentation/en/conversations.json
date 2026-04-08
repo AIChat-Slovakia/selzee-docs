@@ -1,0 +1,8 @@
+{
+  "title": "Conversations",
+  "description": "Viewing conversation details, active and inactive states, summaries, and providing feedback for chatbot training.",
+  "the_conversations_tab_provides": "The **Conversations** tab provides a detailed overview of all conversations. Click on any recent conversation to view its full history.",
+  "press_the_button_to": "Press the **\"<\"** button to expand detailed information about a conversation. Each conversation has a status — **Active** or **Inactive** — depending on whether it is currently ongoing. In addition to conversation duration and message count, you can view a brief summary of the conversation.",
+  "providing_feedback": "Providing Feedback",
+  "if_the_chatbots_responses": "If the chatbot's responses in a given conversation did not meet your expectations, you can leave feedback. In your feedback, describe the expected response or correct any inaccurate information the chatbot provided. This feedback is then incorporated into the chatbot's training data to improve future responses."
+}

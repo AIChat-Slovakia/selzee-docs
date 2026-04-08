@@ -1,0 +1,35 @@
+{
+  "title": "Analytics",
+  "description": "Understanding chatbot analytics including engagement funnels, popup performance, purchase impact, and AI conversation analysis.",
+  "the_analytics_tab_provides": "The **Analytics** tab provides a comprehensive overview of your chatbot's effectiveness. Metrics are tracked separately for each chatbot over a selected time period — 7 days, 30 days, or 90 days.",
+
+  "summary_metrics": "Summary Metrics",
+  "at_the_top_of": "At the top of the dashboard, you'll find three key indicators: total number of **conversations**, number of **AI messages** sent by the chatbot, and the estimated number of **customer support hours saved**.",
+
+  "engagement_funnel": "Engagement Funnel",
+  "this_section_shows_the_visitor": "This section shows the visitor journey from arriving on your site to having an active conversation. You can see the number of **visitors**, **popup displays** (including the percentage of total visitors), **chat opens**, and **messages sent**. These values help you identify where the biggest drop-offs in engagement occur.",
+
+  "popup_performance": "Popup Performance",
+  "this_table_shows_the": "This table shows the performance of individual proactive popup versions. For each popup, you can see how many times it was **displayed**, how many times a visitor **opened** it, and the resulting **open rate**. The source of conversations is also shown — whether they came through a popup or directly via the chat button.",
+
+  "purchase_impact": "Purchase Impact",
+  "this_section_compares_the": "This section compares the purchasing behavior of visitors who used the chat versus those who did not. Tracked metrics include:",
+  "conv_rate": "**Conv. Rate** — Conversion rate shown separately for users with chat, without chat, and the overall store conversion rate.",
+  "chat_uplift": "**Chat Uplift (Δ conv.)** — The difference in conversion rate between chat users and non-chat users. Shows how much chat increases the likelihood of a purchase.",
+  "aov_average_order_value": "**AOV (Average Order Value)** — Comparison of average order value for customers who chatted versus those who did not.",
+  "arpu_average_revenue_per": "**ARPU (Average Revenue Per User)** — Average revenue generated per user, broken down by chat and non-chat segments.",
+  "estimated_revenue_uplift": "**Estimated Revenue Uplift** — Estimated additional revenue directly attributed to the chatbot compared to the baseline site conversion rate.",
+
+  "ai_conversation_analysis": "AI Conversation Analysis",
+  "this_section_provides_a_deeper": "This section provides a deeper look at conversation quality and content. It includes:",
+  "average_conversation_length": "Average conversation length",
+  "chat_conversion_rate": "Chat conversion rate",
+  "human_escalation_rate": "Human escalation rate (Human Needed)",
+  "click_through_count": "Click-through count",
+  "reaction_and_feedback_metrics": "Reaction and feedback metrics",
+  "visitor_mood_breakdown": "Visitor mood breakdown",
+  "conversation_outcomes": "Conversation outcomes",
+  "most_frequent_user_intents": "Most frequent user intents",
+  "most_common_complaints": "Most common complaints",
+  "most_discussed_and_most": "Most discussed and most clicked products"
+}

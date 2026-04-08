@@ -1,0 +1,8 @@
+{
+  "title": "Konverzácie",
+  "description": "Zobrazenie detailov konverzácií, aktívne a neaktívne stavy, súhrny a poskytovanie spätnej väzby pre trénovanie chatbota.",
+  "the_conversations_tab_provides": "Záložka **Konverzácie** poskytuje podrobný prehľad všetkých konverzácií. Kliknutím na ľubovoľnú nedávnu konverzáciu zobrazíte jej kompletnú históriu.",
+  "press_the_button_to": "Stlačením tlačidla **\"<\"** rozbalíte podrobné informácie o konverzácii. Každá konverzácia má stav — **Aktívna** alebo **Neaktívna** — podľa toho, či v súčasnosti prebieha. Okrem trvania konverzácie a počtu správ môžete zobraziť krátky súhrn konverzácie.",
+  "providing_feedback": "Poskytovanie spätnej väzby",
+  "if_the_chatbots_responses": "Ak odpovede chatbota v danej konverzácii nesplnili vaše očakávania, môžete zanechať spätnú väzbu. V spätnej väzbe opíšte očakávanú odpoveď alebo opravte nepresné informácie, ktoré chatbot poskytol. Táto spätná väzba sa následne zahrnie do trénovacích dát chatbota na zlepšenie budúcich odpovedí."
+}

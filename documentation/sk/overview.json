@@ -1,0 +1,9 @@
+{
+  "title": "Prehľad dashboardu",
+  "description": "Súhrnný prehľad aktivity chatbota vrátane počtu návštevníkov, AI správ a histórie konverzácií.",
+  "the_overview_tab_lets": "Záložka **Prehľad** vám umožňuje sledovať celkovú aktivitu vášho chatbota na prvý pohľad. Zobrazuje:",
+  "number_of_contacted_visitors": "Počet kontaktovaných návštevníkov",
+  "number_of_ai_messages": "Počet odoslaných AI správ",
+  "conversation_duration": "Trvanie konverzácií",
+  "you_can_also_browse": "Z tejto záložky môžete tiež prehliadať predchádzajúce konverzácie."
+}
