@@ -1,4 +1,7 @@
 {
   "name": "selzee-docs",
-  "private": true
+  "private": true,
+  "scripts": {
+    "build": "echo 'No build step needed'"
+  }
 }
