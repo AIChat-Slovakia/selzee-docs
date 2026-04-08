@@ -8,7 +8,7 @@ sidebar_position: 1
 
 Selzee provides an AI-powered chatbot for e-commerce stores. This documentation covers the dashboard user guide and the API reference for managing chatbots, data sources, and analytics.
 
-Get started with the [Quickstart](./api-reference/quickstart.md) guide.
+**Language:** [English](./documentation/en/) | [Slovenčina](./documentation/sk/)
 
 ## Documentation
 
