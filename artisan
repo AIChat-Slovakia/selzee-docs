@@ -1,0 +1,4 @@
+#!/usr/bin/env php
+<?php
+// Stub for Forge deployment compatibility
+exit(0);
