@@ -27,3 +27,4 @@ Selzee provides an AI-powered chatbot for e-commerce stores. This documentation 
 - [Event Tracking](./api-reference/event-tracking.md) — record user interactions with the chatbot widget
 - [Analytics Stats](./api-reference/analytics-stats.md) — query aggregated analytics and insights
 - [Password Reset](./api-reference/password-reset.md) — email-based password reset flow
+- [Widget Integration](./api-reference/widget-integration.md) — open the chatbot and send a question from your own input field
